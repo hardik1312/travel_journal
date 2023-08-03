@@ -1,6 +1,11 @@
+import world from '../images/World.png';
+
 function Navbar(){
     return(
-        <h1>Navbar</h1>
+        <div className='navbar'>
+            <img src={world} alt="world" />
+            <p className='white'>My Travel Journal</p>
+        </div>
     )
 }
 
