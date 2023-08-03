@@ -4,7 +4,7 @@ function Navbar(){
     return(
         <div className='navbar'>
             <img src={world} alt="world" />
-            <p className='white'>My Travel Journal</p>
+            <h6>My Travel Journal</h6>
         </div>
     )
 }
